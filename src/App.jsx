@@ -60,44 +60,44 @@ const IntroSlide = ({ onNext }) => (
     <div style={{
       background: 'rgba(255,255,255,0.05)',
       borderRadius: '24px',
-      padding: '40px 30px',
+      padding: '30px 25px',
       maxWidth: '500px',
       width: '100%',
       border: '2px solid rgba(212, 175, 55, 0.3)'
     }}>
-      <div style={{ fontSize: '16px', color: COLORS.gold, letterSpacing: '3px', marginBottom: '20px' }}>
+      <div style={{ fontSize: '14px', color: COLORS.gold, letterSpacing: '3px', marginBottom: '15px' }}>
         JOINT PROPOSAL
       </div>
       
-      <img src="/logo.jpg" alt="1-800-ASK-GARY" style={{ height: '80px', marginBottom: '15px' }} />
+      <img src="/logo.jpg" alt="1-800-ASK-GARY" style={{ height: '60px', maxWidth: '80%', objectFit: 'contain', marginBottom: '15px' }} />
       
-      <div style={{ fontSize: '18px', color: 'rgba(255,255,255,0.7)', margin: '20px 0' }}>
+      <div style={{ fontSize: '16px', color: 'rgba(255,255,255,0.7)', margin: '15px 0' }}>
         in partnership with
       </div>
       
-      <div style={{ color: COLORS.gold, fontSize: '26px', fontWeight: '700', letterSpacing: '2px' }}>
+      <div style={{ color: COLORS.gold, fontSize: '22px', fontWeight: '700', letterSpacing: '2px' }}>
         NOETIC DHARMA GROUP™
       </div>
       
       <div style={{
-        marginTop: '30px',
-        padding: '20px',
+        marginTop: '25px',
+        padding: '18px',
         background: 'rgba(196, 30, 58, 0.2)',
         borderRadius: '12px'
       }}>
-        <div style={{ color: COLORS.white, fontSize: '22px', fontWeight: '600' }}>
+        <div style={{ color: COLORS.white, fontSize: '20px', fontWeight: '600' }}>
           Voice-First Case Intake Portal™
         </div>
       </div>
       
       <div style={{
-        marginTop: '25px',
-        padding: '12px',
+        marginTop: '20px',
+        padding: '10px',
         background: 'rgba(212, 175, 55, 0.15)',
         borderRadius: '8px',
         border: '1px dashed rgba(212, 175, 55, 0.5)'
       }}>
-        <div style={{ color: COLORS.gold, fontSize: '13px' }}>
+        <div style={{ color: COLORS.gold, fontSize: '12px' }}>
           ⚠️ DEMONSTRATION PURPOSES ONLY
         </div>
       </div>
@@ -106,9 +106,9 @@ const IntroSlide = ({ onNext }) => (
     <button
       onClick={onNext}
       style={{
-        marginTop: '30px',
-        padding: '20px 60px',
-        fontSize: '20px',
+        marginTop: '25px',
+        padding: '18px 50px',
+        fontSize: '18px',
         fontWeight: '600',
         background: COLORS.primary,
         color: COLORS.white,

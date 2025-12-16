@@ -1,0 +1,106 @@
+================================================================================
+ASKGARY-WorkingDemo_2025-Dec-16 - MANIFEST
+================================================================================
+
+PROJECT: 1-800-ASK-GARY Case Management Portal™
+VERSION: Working Demo with Voice Recording
+DATE: December 16, 2025
+DEVELOPER: Noetic Dharma Group, LLC
+
+================================================================================
+DEMO FLOW
+================================================================================
+
+SLIDE 1: INTRO
+- Joint proposal slide: 1-800-ASK-GARY + Noetic Dharma Group
+- "Voice-First Case Intake Portal™"
+- "DEMONSTRATION PURPOSES ONLY" disclaimer
+
+SLIDE 2: HOW USERS ACCESS
+- Billboard / Advertising mockup
+- Call Center sends text link
+- Website portal access
+- Email link option
+
+SLIDE 3: REGISTRATION
+- First Name
+- Last Name
+- Email Address
+- Mobile Phone
+- Submit button
+
+SLIDE 4: CASE CREATED
+- Welcome message with user's name
+- Case number generated (format: AG-2512-XXXX)
+- "Screenshot this!" prompt
+- Confirmation via text/email notice
+
+SLIDES 5-23: VOICE INTAKE (19 Questions)
+- Large question display
+- Green START button (microphone)
+- Red STOP button when recording
+- Real-time voice-to-text transcription
+- Review transcript before continuing
+- RE-RECORD option if needed
+- Progress bar shows completion
+
+SLIDE 24: COMPLETION
+- "Phase 1 Complete!" celebration
+- Case manager assigned (Sarah Johnson)
+- Confirmation sent notifications
+
+SLIDE 25: FAMILY ACCESS
+- Add family member form
+- Name, Relationship, Phone
+- Permission to receive updates
+- Skip option
+
+SLIDE 26: PHASE 2 PREVIEW
+- Documents needed list
+- "This takes 10-15 minutes"
+- START NOW or COMPLETE LATER options
+
+SLIDE 27: THANK YOU
+- Final confirmation
+- Case number reminder
+- Sign-in URL for future access
+
+================================================================================
+VOICE RECORDING TECHNOLOGY
+================================================================================
+
+Uses Web Speech API (built into browsers):
+✓ Works on iPhone Safari
+✓ Works on Android Chrome
+✓ Works on Desktop Chrome/Edge/Safari
+✓ No API costs - uses device's built-in speech recognition
+✓ Real-time transcription as user speaks
+✓ Fallback to text input if voice not supported
+
+================================================================================
+CONTENTS
+================================================================================
+
+/
+├── package.json
+├── vite.config.js
+├── vercel.json
+├── index.html
+├── _manifest.txt
+├── public/
+│   └── logo.jpg
+└── src/
+    ├── main.jsx
+    └── App.jsx (complete demo flow)
+
+================================================================================
+DEPLOYMENT
+================================================================================
+
+This replaces the previous landing page version.
+Upload to same GitHub repo → Vercel auto-deploys.
+
+================================================================================
+CONFIDENTIAL & PROPRIETARY
+© 2025 Noetic Dharma Group, LLC | www.noeticdharma.com
+================================================================================
